@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/Montserrat.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+
+    <!-- HTML Meta Tags -->
+    <title>B.P.M. Music and Enrichment</title>
+    <meta name="description" content="Discover B.P.M. Music and Enrichment – music production classes for ages 10+. Bridging the gap between music and technology, fostering creativity and self-expression.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://bpmenrichment.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="B.P.M. Music and Enrichment">
+    <meta property="og:description" content="Discover B.P.M. Music and Enrichment – music production classes for ages 10+. Bridging the gap between music and technology, fostering creativity and self-expression.">
+    <meta property="og:image" content="imgs/meta-thumbnail.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="bpmenrichment.com">
+    <meta property="twitter:url" content="https://bpmenrichment.com/">
+    <meta name="twitter:title" content="B.P.M. Music and Enrichment">
+    <meta name="twitter:description" content="Discover B.P.M. Music and Enrichment – music production classes for ages 10+. Bridging the gap between music and technology, fostering creativity and self-expression.">
+    <meta name="twitter:image" content="imgs/meta-thumbnail.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+
+    <script type="text/javascript">let submitted=false;</script>
+
+    <script src="gallery.js"></script>
+
+    <!-- Top background photo by [Call Me Fred](https://unsplash.com/@callmefred?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)</a> on [Unsplash](https://unsplash.com/photos/black-flat-screen-computer-monitor-fVIpbUFPggo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) -->
+
+</head>
+<body>
+
+
+    <header id="header">
+        <img id="header-logo" src="svg/bpm-text-header.svg" alt="B.P.M. Bridging Possibilities in Music">
+        <div id="header-social">
+            <a href="https://www.instagram.com/Bpm_enrichment/"><img class="svg-link header-social-icon" id="header-instagram" src="svg/icons/instagram-icon.svg" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@b.p.m.programs"><img class="svg-link header-social-icon" id="header-youtube" src="svg/icons/youtube-icon.svg" alt="YouTube"></a>
+        </div>
+    </header>
+
+    <div id="body404" style="height: 100vh; max-height: 75vh; background-image: url('imgs/call-me-fred-fVIpbUFPggo-unsplash.jpg');">
+        <div class="light-content-box" style="text-align: center;">
+            <h1>404: Page Not Found</h1>
+            <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+            <p>Please check the URL in the address bar, or <a href="/" class="black-link">click here to go to the homepage</a>.</p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="footer-columns">
+
+            <div id="footer-logo"><img id="footer-logo-image" src="svg/bpm-logo-light.svg" alt="B.P.M. Bridging Possibilities in Music"></div>
+            <img id="footer-graphic" src="svg/bpm-graphic.svg" alt="Experience, Grow, Perform, Explore, Create, Learn, Record, Collab, Produce, Write">
+            <div id="footer-social">
+                <a class="footer-social-entry white-link" href="tel:12025053003">
+                    <img class="footer-social-icon svg-link" src="svg/icons/phone-icon.svg" alt="Phone"> +1 (202) 505-3003
+                </a>
+                <a class="footer-social-entry white-link" href="mailto:info@bpmenrichment.com">
+                    <img class="footer-social-icon svg-link" src="svg/icons/email-icon.svg" alt="Email"> info@bpmenrichment.com
+                </a>
+                <a class="footer-social-entry white-link" href="https://www.instagram.com/Bpm_enrichment/">
+                    <img class="footer-social-icon svg-link" src="svg/icons/instagram-icon.svg" alt="Instagram"> @Bpm_enrichment
+                </a>
+                <a class="footer-social-entry white-link" href="https://www.youtube.com/@b.p.m.programs">
+                    <img class="footer-social-icon svg-link" src="svg/icons/youtube-icon.svg" alt="YouTube"> @b.p.m.programs
+                </a>
+            </div>
+        </div>
+        <div id="cright">
+            Copyright © 2023 B.P.M. Music and Enrichment
+        </div>
+
+        <script>
+            let form = document.getElementById("form-box")
+            let lower = document.getElementById("lower-content")
+            let placer = document.getElementById("form-placer")
+
+            function setParent(child, newParent) {
+                newParent.appendChild(child);
+            }
+
+            function setFormLocation(displayTest) {
+                if (displayTest.matches) { // If media query matches
+                    setParent(form, lower)
+                } else {
+                    setParent(form, placer)
+                }
+            }
+
+            // Create a MediaQueryList object
+            var displayTest = window.matchMedia("(max-width: 849px)")
+
+            // Call listener function at run time
+            setFormLocation(displayTest);
+
+            // Attach listener function on state changes
+            displayTest.addEventListener("change", function() {
+                setFormLocation(displayTest);
+            });
+        </script>
+    </footer>
+</body>
+</html>
