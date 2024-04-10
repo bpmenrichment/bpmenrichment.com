@@ -701,7 +701,7 @@ iframe{
     right: 0;
     justify-content: center;
     align-items: center;
-    bottom: 25px;
+    bottom: 60px;
     gap: var(--gutter);
     flex-wrap: wrap;
 }
@@ -853,9 +853,9 @@ iframe{
 }
 
 
-@media (max-width: 527px){
+@media (max-width: 434px){
     #gallery-counter{
-        bottom: 50px;
+        bottom: 80px;
     }
     #left-arrow{
         left: 10px;
