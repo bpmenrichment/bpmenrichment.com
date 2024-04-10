@@ -51,10 +51,10 @@ const galleryImages = [
     "imgs/gallery/g7.jpg",
     "A classroom of students producing tracks independently"
   ),
-  new gimage(
+/*   new gimage(
     "imgs/gallery/g8.jpg",
     "A middle school group of students working on a music production and songwriting activity"
-  ),
+  ), */
   new gimage(
     "imgs/gallery/g9.jpg",
     "A masterclass given by a film producer/director for a high school class"
@@ -82,6 +82,38 @@ const galleryImages = [
   new gimage(
     "imgs/gallery/g15.jpg",
     "Elementary school students using midi keyboards to build tracks and record melodies"
+  ),
+  new gimage(
+    "imgs/gallery/g16.jpg",
+    "MISSING"
+  ),
+  new gimage(
+    "imgs/gallery/g17.jpg",
+    "MISSING"
+  ),
+  new gimage(
+    "imgs/gallery/g18.jpg",
+    "MISSING"
+  ),
+  new gimage(
+    "imgs/gallery/g19.jpg",
+    "MISSING"
+  ),
+  new gimage(
+    "imgs/gallery/g20.jpg",
+    "MISSING"
+  ),
+  new gimage(
+    "imgs/gallery/g21.jpg",
+    "MISSING"
+  ),
+  new gimage(
+    "imgs/gallery/g22.jpg",
+    "MISSING"
+  ),
+  new gimage(
+    "imgs/gallery/g23.jpg",
+    "MISSING"
   ),
 ];
 
@@ -111,7 +143,9 @@ function setImg(img){
     let modalImg = document.getElementById("modal-image");
 
     galleryImage.src = img.src;
+    galleryImage.alt = img.alt;
     modalImg.src = img.src;
+    modalImg.alt = img.alt;
     return indexByImg(img)
 }
 
