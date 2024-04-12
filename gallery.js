@@ -51,7 +51,7 @@ const galleryImages = [
     "imgs/gallery/g7.jpg",
     "A classroom of students producing tracks independently"
   ),
-/*   new gimage(
+  /*   new gimage(
     "imgs/gallery/g8.jpg",
     "A middle school group of students working on a music production and songwriting activity"
   ), */
@@ -85,35 +85,35 @@ const galleryImages = [
   ),
   new gimage(
     "imgs/gallery/g16.jpg",
-    "MISSING"
+    "2 girls sharpening their music music production skills using GarageBand"
   ),
   new gimage(
     "imgs/gallery/g17.jpg",
-    "MISSING"
+    "Student collaborating with acoustic bass player during a partnership with Sound Impact Org during culminating event"
   ),
   new gimage(
     "imgs/gallery/g18.jpg",
-    "MISSING"
+    "Founder facilitating music production session at Hyattsville library"
   ),
   new gimage(
     "imgs/gallery/g19.jpg",
-    "MISSING"
+    "Students working on film scoring projects"
   ),
   new gimage(
     "imgs/gallery/g20.jpg",
-    "MISSING"
+    'Students working on film scoring project that focused on "tempo"'
   ),
   new gimage(
     "imgs/gallery/g21.jpg",
-    "MISSING"
+    "Students learning about music production using software instruments during after school programming in SE DC"
   ),
   new gimage(
     "imgs/gallery/g22.jpg",
-    "MISSING"
+    "A young girl writing lyrics to record with the music she produced"
   ),
   new gimage(
     "imgs/gallery/g23.jpg",
-    "MISSING"
+    "A girl stopping to smile while she's working in GarageBand"
   ),
 ];
 
