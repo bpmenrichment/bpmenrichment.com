@@ -78,7 +78,11 @@
                 </div>
 
                 <div id="form-box" class="light-content-box shadowed column">
-                    <form name="gform" id="gform" enctype="text/plain" target="hidden-iframe" onsubmit="_submit();" action="https://docs.google.com/forms/d/e/1FAIpQLScEtufT57sfaUVjoEpj-00oVmLk9QsO5PlIHZRK9l9Tssa-SA/formResponse?">
+                    <form name="gform" id="gform" enctype="text/plain" target="hidden-iframe" onsubmit="return _submit(event);" action="https://docs.google.com/forms/d/e/1FAIpQLScEtufT57sfaUVjoEpj-00oVmLk9QsO5PlIHZRK9l9Tssa-SA/formResponse?">
+
+                        <label class="hp" id="hp-label" for="name">Name</label>
+                        <input class="hp" id="hp-input" name="name" type="text" placeholder="Your name here">
+
                         <div id="form-logo-box">
                             <img id="form-logo" class=" unselectable" src="svg/logo-form.svg" alt="B.P.M. Bridging Possibilities in Music">
                         </div>
@@ -96,7 +100,6 @@
 
                         <div id="form-content-container">
                         <div id="form-content">
-
                             <div id="first-last-input" class="row">
                                 <div id="first-input" class="input-label-pair">
                                     <label for="entry.111891465">First name <span class="required">*</span></label>
@@ -234,7 +237,13 @@
 
                         <script type="text/javascript">
 
-                            function _submit(){
+                            function _submit(event){
+                                if (document.getElementById("hp-input").value !== ""){
+                                    console.log("not submitted")
+                                    event.preventDefault();
+                                    return false;
+                                }
+
                                 submitted=true;
 
                                 let form = document.getElementById("form-content");
