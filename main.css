@@ -485,7 +485,7 @@ iframe{
 
 /* Course Overview */
 
-#course-overview{
+#course-overview, #kreative-kids-overview{
     row-gap: var(--gutter);
 }
 
