@@ -78,7 +78,7 @@
                 </div>
 
                 <div id="form-box" class="light-content-box shadowed column">
-                    <form name="gform" id="gform" enctype="text/plain" target="hidden-iframe" onsubmit="return _submit(event);" action="https://docs.google.com/forms/d/e/1FAIpQLScEtufT57sfaUVjoEpj-00oVmLk9QsO5PlIHZRK9l9Tssa-SA/formResponse?">
+                    <form name="gform" id="gform" enctype="text/plain" target="hidden-iframe" onsubmit="return _submit(event);" action="">
 
                         <label class="hp" id="hp-label" for="name">Name</label>
                         <input class="hp" id="hp-input" name="name" type="text" placeholder="Your name here">
@@ -244,11 +244,16 @@
                                     return false;
                                 }
 
+                                let gform = document.getElementById("gform");
+                                let action="aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZm9ybXMvZC9lLzFGQUlwUUxTY0V0dWZUNTdzZmFVVmpvRXBqLTAwb1ZtTGs5UXNPNVBsSUhaUks5bDlUc3NhLVNBL2Zvcm1SZXNwb25zZT8="
+                                gform.action = atob(action);
+
                                 submitted=true;
 
                                 let form = document.getElementById("form-content");
                                 let postForm=document.getElementById("post-form");
                                 console.log(form)
+
                                 form.style.visibility = 'hidden';
                                 postForm.style.display = "unset";
                             }
