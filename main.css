@@ -485,7 +485,7 @@ iframe{
 
 /* Course Overview */
 
-#course-overview, #kreative-kids-overview{
+#course-overview, #the-bridge-overview{
     row-gap: var(--gutter);
 }
 
@@ -872,6 +872,12 @@ iframe{
     }
     #right-arrow{
         right:10px;
+    }
+}
+
+@media (max-width: 344px){
+    #gallery-counter{
+        bottom: 110px;
     }
 }
 
