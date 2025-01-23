@@ -349,6 +349,12 @@ iframe{
     text-wrap: nowrap;
 }
 
+.section-heading-img{
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 15px
+}
+
 .heading-blocker{
     width: 100%;
     height: 3px;
@@ -357,20 +363,15 @@ iframe{
     background-color: var(--light-text);
 }
 
-/* Our Program Section */
+/* Program Sections */
 
-#our-program{
+.program{
     row-gap: var(--gutter);
 }
 
-#our-program-logo{
-    width: 70%;
-    max-width: 400px;
-    margin-bottom: 15px
-}
-
-#our-program-box{
+.program-box{
     align-items: center;
+    row-gap: var(--gutter);
 }
 
 /* Contact Form */
@@ -576,6 +577,11 @@ iframe{
 #sel-heading{
     font-size: 20px;
     font-weight: 700;
+}
+
+/* The Bridge */
+#the-bridge-logo{
+    border-radius: var(--corners);
 }
 
 /* Middle */
@@ -1011,7 +1017,6 @@ iframe{
         justify-content: space-around;
         height: calc(100% - 47px);
         font-size: 19px;
-        row-gap: var(--gutter);
     }
 
     /* Contact Form */
