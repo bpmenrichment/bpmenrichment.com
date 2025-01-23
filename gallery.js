@@ -25,11 +25,11 @@ class gimage{
 const galleryImages = [
   new gimage(
     "imgs/gallery/g1.jpg",
-    "Students working together on lyric writing"
+    ""
   ),
   new gimage(
     "imgs/gallery/g2.jpg",
-    "High school students working on sharpening their beat making skills"
+    ""
   ),
   new gimage(
     "imgs/gallery/g3.jpg",
@@ -37,7 +37,7 @@ const galleryImages = [
   ),
   new gimage(
     "imgs/gallery/g4.jpg",
-    "A student recording her verse on the microphone during a session in the classroom"
+    ""
   ),
   new gimage(
     "imgs/gallery/g5.jpg",
@@ -65,11 +65,11 @@ const galleryImages = [
   ),
   new gimage(
     "imgs/gallery/g11.jpg",
-    "B.P.M. founder demonstrating music software functions using a smart board in front of class"
+    ""
   ),
   new gimage(
     "imgs/gallery/g12.jpg",
-    "Middle school students sitting at a table, exploring music software for the 1st time"
+    ""
   ),
   new gimage(
     "imgs/gallery/g13.jpg",
@@ -77,7 +77,7 @@ const galleryImages = [
   ),
   new gimage(
     "imgs/gallery/g14.jpg",
-    "Participants working on independent music production projects after school"
+    ""
   ),
   new gimage(
     "imgs/gallery/g15.jpg",
@@ -85,7 +85,7 @@ const galleryImages = [
   ),
   new gimage(
     "imgs/gallery/g16.jpg",
-    "2 girls sharpening their music music production skills using GarageBand"
+    ""
   ),
   new gimage(
     "imgs/gallery/g17.jpg",
@@ -97,11 +97,11 @@ const galleryImages = [
   ),
   new gimage(
     "imgs/gallery/g19.jpg",
-    "Students working on film scoring projects"
+    ""
   ),
   new gimage(
     "imgs/gallery/g20.jpg",
-    'Students working on film scoring project that focused on "tempo"'
+    ""
   ),
   new gimage(
     "imgs/gallery/g21.jpg",
@@ -114,6 +114,18 @@ const galleryImages = [
   new gimage(
     "imgs/gallery/g23.jpg",
     "A girl stopping to smile while she's working in GarageBand"
+  ),
+  new gimage(
+    "imgs/gallery/g24.jpg",
+    ""
+  ),
+  new gimage(
+    "imgs/gallery/g25.jpg",
+    ""
+  ),
+  new gimage(
+    "imgs/gallery/g26.jpg",
+    ""
   ),
 ];
 
