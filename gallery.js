@@ -127,6 +127,14 @@ const galleryImages = [
     "imgs/gallery/g26.jpg",
     ""
   ),
+  new gimage(
+    "imgs/gallery/g27.jpg",
+    ""
+  ),
+  new gimage(
+    "imgs/gallery/g28.jpg",
+    ""
+  ),
 ];
 
 function imgById(id) {
