@@ -588,6 +588,8 @@ iframe{
 
 #middle-text, #middle-list{
     font-weight: 600;
+    padding-left: 20px;
+    width: 50%;
 }
 
 #middle-list{
@@ -595,8 +597,7 @@ iframe{
 }
 
 .middle-item{
-    width: 50%;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Meet the Founder */
@@ -1060,14 +1061,10 @@ iframe{
     /* Middle */
 
     .middle-item{
-        font-size: 16px;
+        font-size: 18px;
     }
 
-    #middle-text{
-        width: var(--left-percent);
-    }
     #middle-list{
-        width: var(--right-percent);
         padding-left: 40px;
     }
 
