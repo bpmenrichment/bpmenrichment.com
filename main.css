@@ -350,8 +350,8 @@ iframe{
 }
 
 .section-heading-img{
-    width: 70%;
-    max-width: 400px;
+    width: 80%;
+    max-width: 600px;
     margin-bottom: 15px;
 }
 
@@ -719,7 +719,7 @@ iframe{
 }
 
 .other-program-card{
-    width: 46%;
+    width: calc(50% - var(--gutter)/2);
     align-items: center;
     justify-content: flex-start;
     row-gap: 15px;
