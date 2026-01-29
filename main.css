@@ -637,7 +637,6 @@ iframe{
 }
 
 .contact-info-box{
-    align-items: center;
     row-gap: 20px;
 }
 
@@ -663,7 +662,6 @@ iframe{
 
 .contact-icon{
     width: 1.2em;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
 
 .back-home-btn{
