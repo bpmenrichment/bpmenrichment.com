@@ -352,7 +352,7 @@ iframe{
 .section-heading-img{
     width: 70%;
     max-width: 400px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 .heading-blocker{
@@ -719,17 +719,27 @@ iframe{
 }
 
 .other-program-card{
-    width: 50%;
+    width: 46%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     row-gap: 15px;
     text-align: center;
     padding: var(--box-padding);
 }
 
+.other-program-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    row-gap: 15px;
+}
+
 .other-program-logo{
     width: 100%;
     max-width: 200px;
+    max-height: 120px;
     height: auto;
     object-fit: contain;
     border-radius: calc(var(--corners) / 1.6);

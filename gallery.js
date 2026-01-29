@@ -21,8 +21,11 @@ class gimage{
     }
 }
 
+// Active gallery images (set by init_images)
+let galleryImages = [];
 
-const galleryImages = [
+// Main gallery images (default)
+const mainGalleryImages = [
   new gimage(
     "imgs/gallery/g1.jpg",
     ""
@@ -137,6 +140,16 @@ const galleryImages = [
   ),
 ];
 
+// Ghana gallery images
+const ghanaGalleryImages = [
+  new gimage("imgs/ghana/g1.webp", "B.P.M. Ghana workshop"),
+  new gimage("imgs/ghana/g2.webp", "B.P.M. Ghana workshop"),
+  new gimage("imgs/ghana/g3.webp", "B.P.M. Ghana workshop"),
+  new gimage("imgs/ghana/g4.webp", "B.P.M. Ghana workshop"),
+  new gimage("imgs/ghana/g5.webp", "B.P.M. Ghana workshop"),
+  new gimage("imgs/ghana/g6.webp", "B.P.M. Ghana workshop"),
+];
+
 function imgById(id) {
     for(let i=0; i<galleryImages.length; i++){
         if(galleryImages[i].id == id){
@@ -219,7 +232,11 @@ function closeModal(){
     modal.close()
 }
 
-function init_images(){
+function init_images(images){
+    // Use provided images or default to main gallery
+    galleryImages = images || mainGalleryImages;
+    currIndex = 0;
+
     let galleryCounter = document.getElementById("gallery-counter");
     let galleryImage = document.getElementById("gallery-image");
     let clickToClose = document.getElementById("click-to-close");
