@@ -148,6 +148,7 @@ const ghanaGalleryImages = [
   new gimage("imgs/ghana/g4.webp", "B.P.M. Ghana workshop"),
   new gimage("imgs/ghana/g5.webp", "B.P.M. Ghana workshop"),
   new gimage("imgs/ghana/g6.webp", "B.P.M. Ghana workshop"),
+  new gimage("imgs/ghana/g7.webp", "B.P.M. Ghana workshop"),
 ];
 
 function imgById(id) {
