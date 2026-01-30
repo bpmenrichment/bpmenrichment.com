@@ -761,6 +761,17 @@ iframe{
     position: relative;
 }
 
+.loops-video-container{
+    display: flex;
+    justify-content: center;
+}
+
+#loops-video{
+    aspect-ratio: 16 / 9 !important;
+    width: 100% !important;
+    border-radius: var(--corners);
+}
+
 .other-program-logo-stamp{
     position: absolute;
     top: -12px;
